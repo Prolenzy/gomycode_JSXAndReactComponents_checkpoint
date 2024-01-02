@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  height: 100vh;                /* Make the container full viewport height */
+  display: flex;               /* Use flexbox layout */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Center vertically */
+  padding: 20px;               /* Add padding around the content */
+  box-sizing: border-box;      /* Ensure padding doesn't affect total element size */
+}
+.center-container {
+  text-align: center;
+}
+/* Style for the Card */
+.custom-card-style {
+  max-width: 400px;            /* Set a maximum width for the Card */
+  width: 100%;                 /* Make the Card responsive */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+
+}
